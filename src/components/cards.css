@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .con {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .card-column {
+      margin-bottom: 10px;
+
+    }
+  }
+  

@@ -1,5 +1,5 @@
 
-import NavbarDefault from "./components/Navbar";
+import NavbarDefault from "./components/Navba/Nav";
 import Footer from "./components/footer/Footer";
 import About from "./components/About/About";
 import StartUp from "./components/StartUps/Start";

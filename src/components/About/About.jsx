@@ -9,7 +9,7 @@ function About() {
   return (
     <>
     {/* Innovation */}
-    <div className="flex flex-col lg:flex w-[100vw] lg:w-full justify-center items-center lg:flex-row my-[2%]  ">
+    <div className="flex flex-col lg:flex w-[100vw] lg:w-full justify-center items-center mt-0 lg:flex-row my-[0%]  ">
       <motion.div
         variants={fadeIn("right")}
         initial="hidden"

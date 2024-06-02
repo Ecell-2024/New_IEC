@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 import About from "./components/About/About";
 import StartUp from "./components/StartUps/Start";
 // import Note from "./components/DeanNote/NewNote";
-import Carousel from "./components/Carousel/Carousel";
+import Carousel from "./components/carousel/carousel";
 import Card from "./components/card";
 import Home from "./pages/Home/Home";
 

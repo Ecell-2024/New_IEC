@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
@@ -45,8 +46,10 @@ export default function RecipeReviewCard() {
     };
   }, []);
 
-  return (
-    <div className="flex con justify-around mb-10 mt-[-50px]">
+  return (<>
+  <h1 className="text-[#012060] !font-medium !text-4xl lg:!text-5xl  text-center m-4 my-10">Our Dignitories</h1>
+    <div className="flex con justify-around mb-10 mt-[50px]">
+      
       {[0, 1, 2].map((index) => (
         <div key={index} className="card-column">
           <Card
@@ -99,5 +102,6 @@ export default function RecipeReviewCard() {
         </div>
       ))}
     </div>
+    </>
   );
 }

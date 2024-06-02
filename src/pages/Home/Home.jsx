@@ -5,7 +5,7 @@ import Type from "../../components/ui/type.jsx";
 
 const Home = () => {
   return (
-    <>
+    <div className="flex flex-col items-center justify-center  h-screen overflow-hidden">
       <WavyBackground className="max-w-3xl mx-auto overflow-hidden ">
         <div className="flex flex-col justify-center items-center">
           <div className="right w-full md:w-4/5 flex justify-center items-center flex-col text-center p-5 md:p-10">
@@ -24,7 +24,7 @@ const Home = () => {
           </div>
         </div>
       </WavyBackground>
-    </>
+    </div>
   );
 };
 

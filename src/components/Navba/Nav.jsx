@@ -1,6 +1,11 @@
 import "./Nav.css";
 import { useState } from "react";
 import im from "../../assets/Home/logo-removebg-preview.png"
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from "react-router-dom";
 function Navbar() {
   const [endeavourMainMenu, setEndeavourMainMenu] = useState(0);
   const userId = localStorage.getItem("userId");
@@ -13,7 +18,7 @@ function Navbar() {
  
 
   return (
-    <div className="w-[100vw] mb-10">
+    <div className="w-[100vw] mb-10 bg-zinc-400">
     
         
         <div className="relative">
@@ -29,36 +34,36 @@ function Navbar() {
               />
             </div>
             <div className="w-[60%] hidden md:flex justify-between items-center">
-              <a
-                
+              <Link
+                to='/'
                 className="text-black dark:text-white font-semibold"
               >
                 Home
-              </a>
-              <a
-                
+              </Link>
+              <Link
+                to='/innovation'
                 className="text-black dark:text-white font-semibold"
               >
                 Innovation
-              </a>
-              <a
-                
+              </Link>
+              <Link
+                to='/entrepreneurship'
                 className="text-black dark:text-white font-semibold"
               >
                 Entrepreneurship
-              </a>
-              <a
-                
+              </Link>
+              <Link
+                to='/consultancy'
                 className="text-black dark:text-white font-semibold"
               >
                 Consultancy
-              </a>
-              <a
-                
+              </Link>
+              <Link
+                to='/contacts'
                 className="text-black dark:text-white font-semibold"
               >
                 Contact Us
-              </a>
+              </Link>
               
               
               <a>
@@ -175,6 +180,7 @@ function Navbar() {
         </div>
     
     </div>
+
   );
 }
 

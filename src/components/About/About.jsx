@@ -6,7 +6,7 @@ import Button from "./Button";
 import { motion } from "framer-motion";
 import { fadeIn } from "./Variant";
 function About() {
-  return (
+  return ( 
     <>
     {/* Innovation */}
     <div className="flex flex-col lg:flex w-[100vw] lg:w-full justify-center items-center mt-0 lg:flex-row my-[0%]  ">
